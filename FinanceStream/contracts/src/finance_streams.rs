@@ -24,7 +24,7 @@
 // uint256 senderBalance,
 // uint256 recipientBalance
 
-/// 
+const NEW_STREAM_ID: &str = "new_stream_id"
 
 #[no_mangle]
 pub extern "C" fn balanceOf() {
